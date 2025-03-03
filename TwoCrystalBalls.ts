@@ -12,7 +12,6 @@ export default function two_crystal_balls(breaks: boolean[]): number {
 
         for (let j  = 0; j < jmpAmount && i < breaks.length; j++, i++) {
                 if (breaks[i]) {
-                        console.log(i);
                         return i;
                 }
         }
